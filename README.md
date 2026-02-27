@@ -1,9 +1,9 @@
 Gator
 
 Installation:
--Install go
--Install postgress
--Run "go install" in cli
+- Install go
+- Install postgres
+- Run "go install" in directory using cli
 
 Usage:
 - Registration: gator register %username
@@ -17,3 +17,4 @@ Usage:
 - Subscribed feeds list: gator following
 - Start scraping feeds: gator agg %time_interval (example: 10s, 1m, etc.)
 - Browse feeds: gator browse %count
+
